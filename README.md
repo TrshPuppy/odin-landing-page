@@ -3,4 +3,4 @@
 
 This is an Odin-Project project from their curriculum: https://www.theodinproject.com/lessons/foundations-landing-page.
 
-The requirements for this project is to create a ladning page based on a provided template suing HTML and CSS.
+The requirement for this project is to create a ladning page based on a provided template using HTML and CSS.
