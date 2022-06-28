@@ -40,17 +40,19 @@ body
     border-radius: 100%;
 }
 
-.header .links
+.links
 {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
-.links .link
+.link
 {
     padding-inline: 20px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .section1
@@ -135,7 +137,7 @@ body
 
 .linkbox .link_pic
 {
-    max-width: 150px;
+    max-height: 125px;
     padding: 8px;
 }
 
@@ -164,4 +166,12 @@ body
 {
     text-align: right;
     font-family: 'Trispace', sans-serif;
+}
+
+.links .button
+{
+    color:#43E0C6;
+    text-decoration: none;
+    font-family: 'Trispace', sans-serif;
+    padding-inline: 20px;
 }
