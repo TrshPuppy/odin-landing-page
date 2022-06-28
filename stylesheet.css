@@ -8,24 +8,26 @@ body
     font-family: 'Trispace', sans-serif;
     color: #43E0C6;
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
+    flex-flow: column wrap;
     align-items: center;
+    flex: auto;
 }
 
 .tickertape
 {
     background-color: #10474B;
     display: flex;
-    flex-flow: column nowrap;
-    width: 1500px;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
+    max-width: 1500px;
 }
 
 .header
 {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between; 
+    justify-content: space-between;
+    flex: 1 1 50%;
     padding-right: 300px;
     padding-left: 300px;
     margin-top: 16px;
@@ -38,23 +40,24 @@ body
     border-radius: 100%;
 }
 
-.links
+.header .links
 {
     display: flex;
     flex-flow: row nowrap;
-    align-items: flex-start;
-    justify-content: space-around;  
+    align-items: center;
+    justify-content: space-between;
 }
 
 .links .link
 {
-    padding-left: 32px;
+    padding-inline: 20px;
 }
 
 .section1
 {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding-left: 300px;
@@ -66,8 +69,9 @@ body
     font-size: 20px;
     text-align: left;
     max-width: 400px;
-
+    min-width:auto;
 }
+
 .welcome .context
 {
     font-family: 'Inconsolata', Arial, sans-serif;
@@ -85,6 +89,7 @@ body
     border: #351D61;
     border-radius: 8px;
     padding: 8px;
+    margin-bottom: 8px;
     text-decoration: none;
 }
 
@@ -99,6 +104,8 @@ body
     flex-flow: column nowrap;
     padding-left: 300px;
     padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background: #E68CC6;
     color: #10474B;
 }
@@ -106,7 +113,7 @@ body
 {
     align-items: center;
     text-align: center;
-    padding-bottom: 16px;
+    padding-bottom: 25px;
 }
 
 .section2 .link_boxes
@@ -128,6 +135,33 @@ body
 
 .linkbox .link_pic
 {
-    max-width: 100px;
+    max-width: 150px;
     padding: 8px;
+}
+
+.section3
+{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background: #EEDD99;
+    color: #351D61;
+    font-family: 'Inconsolata',Arial, sans-serif;
+    
+}
+
+.section3 .quote
+{
+    text-align: center;
+    font-size: 32px;
+}
+
+.section3 .author
+{
+    text-align: right;
+    font-family: 'Trispace', sans-serif;
 }
