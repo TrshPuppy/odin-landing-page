@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Trispace&display=swap');
+
+body
+{
+    background-color: #5A1D61;
+    font-family: 'Trispace', sans-serif;
+    color: #43E0C6;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tickertape
+{
+    background-color: #10474B;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 1500px;
+}
+
+.header
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; 
+    padding-right: 300px;
+    padding-left: 300px;
+    margin-top: 16px;
+}
+
+.header .logo
+{
+    max-width: 200px;
+    border-color: #050429;
+    border-radius: 100%;
+}
+
+.links
+{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: space-around;  
+}
+
+.links .link
+{
+    padding-left: 32px;
+}
+
+.section1
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;   
+}
+
+.section1 .welcome
+{
+    font-size: 20px;
+    text-align: left;
+    max-width: 400px;
+
+}
+.welcome .context
+{
+    font-family: 'Inconsolata', Arial, sans-serif;
+    font-size: 20px;
+    max-width: 400;
+}
+
+.section1 .button
+{
+    background: #E68CC6;
+    color: #351D61;
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;
+    border: #351D61;
+    border-radius: 8px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.section1 .pic
+{
+    min-width: 400px;
+}
