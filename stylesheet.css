@@ -98,6 +98,7 @@ body
 .section1 .pic
 {
     min-width: 400px;
+    max-width: 500px
 }
 
 .section2
@@ -175,3 +176,5 @@ body
     font-family: 'Trispace', sans-serif;
     padding-inline: 20px;
 }
+
+
