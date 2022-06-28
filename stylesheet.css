@@ -2,6 +2,8 @@
 
 body
 {
+    background-image: url(../odin-landing-page/img/backdrop.gif);
+    background-size:75%;
     background-color: #5A1D61;
     font-family: 'Trispace', sans-serif;
     color: #43E0C6;
@@ -89,4 +91,43 @@ body
 .section1 .pic
 {
     min-width: 400px;
+}
+
+.section2
+{
+    display: flex;
+    flex-flow: column nowrap;
+    padding-left: 300px;
+    padding-right: 300px;
+    background: #E68CC6;
+    color: #10474B;
+}
+.section2 .context
+{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.section2 .link_boxes
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inconsolata', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.link_boxes .linkbox
+{
+    max-width: min-content;
+    text-align: center;
+}
+
+.linkbox .link_pic
+{
+    max-width: 100px;
+    padding: 8px;
 }
