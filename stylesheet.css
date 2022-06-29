@@ -102,6 +102,12 @@ body
     max-width: 400px
 }
 
+.headshot
+{
+    max-width: 300px;
+    padding: 18px;
+}
+
 .section2
 {
     display: flex;
