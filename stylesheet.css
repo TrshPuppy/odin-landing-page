@@ -3,7 +3,8 @@
 body
 {
     background-image: url(../odin-landing-page/img/backdrop.gif);
-    background-size:75%;
+    background-size: 60%;
+    background-attachment: fixed;
     background-color: #5A1D61;
     font-family: 'Trispace', sans-serif;
     color: #43E0C6;
