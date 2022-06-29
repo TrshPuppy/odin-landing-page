@@ -195,7 +195,7 @@ body
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-   color:#EEDD99
+    color:#EEDD99
 }
 
 .section4 .sec4_box
@@ -227,6 +227,17 @@ body
 .section4 .right_side
 {
     max-width: 300px;
-   text-align: center;
-   padding: 25px;
+    text-align: center;
+    padding: 25px;
+}
+
+.footer
+{
+    text-align: center;
+
+}
+
+.footer_link
+{
+    color:#43E0C6;
 }
